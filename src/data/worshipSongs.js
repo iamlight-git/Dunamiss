@@ -1,0 +1,58 @@
+export const worshipSongs = [
+  {
+    id: 1,
+    title: "How Great Is Our God",
+    artist: "Chris Tomlin",
+    image: "/images/worship/album_209.jpg",
+    audioUrl: "/audios/song-1.mp3",
+  },
+  {
+    id: 2,
+    title: "Oceans",
+    artist: "Hillsong UNITED",
+    image: "/images/worship/album_8409.jpg",
+    audioUrl: "/audios/song-2.mp3",
+  },
+  {
+    id: 3,
+    title: "10,000 Reasons",
+    artist: "Matt Redman",
+    image: "/images/worship/album_8562.jpg",
+    audioUrl: "/audios/song-3.mp3",
+  },
+  {
+    id: 4,
+    title: "Reckless Love",
+    artist: "Cory Asbury",
+    image: "/images/worship/album_8912.jpg",
+    audioUrl: "/audios/song-4.mp3",
+  },
+  {
+    id: 5,
+    title: "Way Maker",
+    artist: "Sinach",
+    image: "/images/worship/album_9458.jpg",
+    audioUrl: "/audios/song-5.mp3",
+  },
+  {
+    id: 6,
+    title: "What A Beautiful Name",
+    artist: "Hillsong Worship",
+    image: "/images/worship/album_9999.jpg",
+    audioUrl: "/audios/song-6.mp3",
+  },
+  {
+    id: 7,
+    title: "Build My Life",
+    artist: "Housefires",
+    image: "/images/worship/album_10492.jpg",
+    audioUrl: "/audios/song-7.mp3",
+  },
+  {
+    id: 8,
+    title: "Goodness of God",
+    artist: "Bethel Music",
+    image: "/images/worship/album_10204.jpg",
+    audioUrl: "/audios/song-8.mp3",
+  },
+];
