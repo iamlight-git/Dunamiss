@@ -26,7 +26,7 @@ const FounderSection = () => {
   ];
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-16" id="faith">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-12 items-center">
           <div className="relative mb-10 lg:mb-0">

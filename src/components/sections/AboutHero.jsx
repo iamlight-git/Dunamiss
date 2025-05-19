@@ -1,7 +1,7 @@
 import React from "react";
 const AboutHero = () => {
   return (
-    <div className="relative bg-indigo-800 overflow-hidden">
+    <div className="relative bg-indigo-800 overflow-hidden" id="history" >
       <div className="absolute inset-0">
         <img
           className="w-full h-full object-cover object-top"

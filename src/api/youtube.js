@@ -11,7 +11,7 @@ export async function fetchPlaylistVideos(maxResults = 10) {
 
   const response = await fetch(url);
   const data = await response.json();
-  console.log(data)
+
 
   if (!response.ok) {
     throw new Error(data.error?.message || "Failed to fetch YouTube videos");

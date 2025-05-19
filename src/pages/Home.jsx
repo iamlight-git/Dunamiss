@@ -5,6 +5,8 @@ import { navItems } from "../data/navItems";
 import Hero from "../components/HomeComponents/Hero";
 import WorshipSongs from "../components/HomeComponents/WorshipSongs";
 import TeachingVideos from "../components/HomeComponents/TeachingVideos";
+import UpcomingEvents from "../components/HomeComponents/UpcomingEvents";
+import Footer from "../layout/Footer";
 
 
 const Home = () => {
@@ -17,6 +19,8 @@ const Home = () => {
           <Hero />
           <WorshipSongs />
           <TeachingVideos />
+          <UpcomingEvents />
+          <Footer />
           {activeVideo && (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-xl overflow-hidden max-w-4xl w-full">

@@ -1,6 +1,7 @@
 import React from "react";
 import { useSearchParams } from "react-router-dom";
 import Header from "../layout/Header";
+import Footer from "../layout/Footer";
 
 const content = {
   teaching: {
@@ -56,6 +57,7 @@ const Media = () => {
           </div>
         )}
       </main>
+      <Footer />
     </>
   );
 };
